@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+@font-face {
+  font-family: "Podium";
+  src: url("../font/Fontspring-DEMO-podiumsharp-1.12.woff2") format("woff2"),
+    url("../font/Fontspring-DEMO-podiumsharp-1.12.woff") format("woff");
+}
+
+.event-name {
+  position: fixed;
+  font-family: Podium;
+  font-size: 200px;
+}
+
+.horaire {
+  position: fixed;
+  background-color: black;
+  max-width: fit-content;
+  max-height: fit-content;
+  border: solid 3px #00d97d;
+  padding: 7px 25px 0px 25px;
+  border-radius: 8px;
+}
+
+.text-horaire {
+  position: fixed;
+  color: #00d97d;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 40;
+}
